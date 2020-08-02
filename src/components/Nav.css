@@ -1,0 +1,53 @@
+.bg_navbar{
+  width: 100%;
+  position: absolute;
+  height: 80px;
+  background-color: #8b78a1;
+  opacity: 0.8;
+}
+#logoHenry {
+  margin: 10px 5px 10px 3rem;
+}
+.navbar{
+  display: flex;
+  justify-content: flex-start;
+}
+.navbar_brand {
+  display: flex;
+}
+.navbar p{
+  margin-top: 14px;
+  padding-left: 16px;
+  color: white;
+  font-size: 22px;
+}
+.txt{
+  color: white;
+  font-size: 16px;
+  margin-right: 10px;
+}
+.navbar_search{
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+.searchTxt{
+  border: 0.5px solid #d6d6d6;
+  border-radius: 5px;
+  padding: 8px;
+  margin-right: 16px;
+}
+.searchBtn {
+  width: 120px;
+  border-radius: 25px;
+  color: rgb(255, 255, 255);
+  font-size: 14PX;
+  font-weight: 500;
+  padding: 7px;
+  margin-right: 45px;
+  background-color: black;
+  cursor: pointer;
+}
+.searchBtn:active, .searchBtn:link, .searchBtn:visited {
+  text-decoration: none;
+}

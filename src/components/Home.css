@@ -1,0 +1,16 @@
+.container_home{
+    width: 100%;
+}
+.body{
+    width: 100%;
+    display: flex;
+}
+.cards {
+    margin: 60px 0 0 3rem;
+    height: fit-content;
+    box-sizing: content-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  

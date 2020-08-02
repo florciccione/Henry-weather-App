@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'Open Sans Regular';
+  src: url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: 'Open Sans Light';
+  src: url(../fonts/OpenSans-Light.ttf);
+}
+
+.card {
+  font-family: 'Open Sans Light';
+  background: linear-gradient(#8b78a1, #9dbfd7);
+  border: none;
+  margin: 20px;
+  width: 20rem;
+  padding: 10px 35px 45px 35px;
+  -webkit-box-shadow: 8px 8px 28px 1px rgba(0,0,0,0.45);
+  -moz-box-shadow: 8px 8px 28px 1px rgba(0,0,0,0.45);
+  box-shadow: 8px 8px 28px 1px rgba(0,0,0,0.45);
+}
+.row_title{
+  margin-top: 5px;
+  display:flex;
+}
+.card_title{  
+  display:flex;
+  margin: auto;
+  padding-left: 1rem;
+}
+.card_title:hover, .card_title:link, .card_title:visited, .card_title:active{
+  text-decoration: none;
+  color: orange
+}
+.name{
+  font-size: 30px;
+  line-height : 24px;
+  margin-bottom: 1px;
+  color: white;
+}
+.btn_close{
+  font-size: 24px;
+  color: white;
+}
+.date{
+  font-size: 12px;
+  margin-bottom: 55px;
+}
+.clima_img{
+  display: flex;
+}
+.row_body{
+  margin-left: 20px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.card_body {
+  color: white;
+  font-size: 20px;
+}
+
+.weather{
+  align-self: center;
+  font-size: 22px;
+}
+.temps{
+  display:flex;
+}
+.temp {
+  font-size: 110px;
+  letter-spacing: -10px;
+  line-height: 96px;
+  padding-left: 18px;
+  text-align: left;
+  margin-bottom: 65px;
+}
+.min{
+  padding: 0px;
+}
+.max {
+  border-bottom: 0.5px solid #c7d8ea;
+  padding: 0 5px;
+}
+#closeIcon {
+  display: flex;
+  justify-content: flex-end;
+}

@@ -1,0 +1,6 @@
+.cards {
+  box-sizing: content-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

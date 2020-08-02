@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+  background: url(../img/sky.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 937px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
