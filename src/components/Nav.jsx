@@ -5,7 +5,6 @@ import SearchBar from './SearchBar.jsx';
 //CSS
 import './Nav.css';
 
-//barra de navegacion con logo y nombre, about y searchBar
 function Nav({onSearch}) {
   return (
     <div>
