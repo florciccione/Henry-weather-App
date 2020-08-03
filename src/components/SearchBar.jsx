@@ -1,7 +1,6 @@
 import React, { useState } from "react";
+//CSS
 import './Nav.css';
-
-// {onSearch} es lo mismo que decir props.onSearch (destructuring)
 
 export default function SearchBar({onSearch}) {
   const [city, setCity] = useState("");
